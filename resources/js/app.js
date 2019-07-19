@@ -242,6 +242,14 @@ $('.left-popup__open').click(function () {
   $('.layer-bg').addClass('active');
 });
 
+$(document).on('mouseup', (e) =>{
+  let p = $(".left-popup");
+  if (!p.is(e.target) && p.has(e.target).length === 0) {
+    $(".left-popup").removeClass("left-popup--active");
+    $('.layer-bg').removeClass('active');
+  }
+});
+
 $('.left-popup__close').click(function () {
   $(".left-popup").removeClass("left-popup--active");
   $('.layer-bg').removeClass('active');
