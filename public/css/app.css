@@ -585,11 +585,11 @@ template {
   text-decoration: underline;
   font-size: 14px;
   text-underline-position: under;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  -o-transition: transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  -o-transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   font-family: "Circe-bold";
@@ -602,6 +602,10 @@ template {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
+}
+.btn--all-category.hidden {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .heading {

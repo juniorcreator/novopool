@@ -69,7 +69,7 @@
     text-decoration: underline;
     font-size: 14px;
     text-underline-position: under;
-    transition: transform .3s;
+    transition: transform .3s, opacity .3s;
     backface-visibility: hidden;
     font-family: 'Circe-bold';
     position: relative;
@@ -77,6 +77,10 @@
     &:hover {
       box-shadow: none;
      transform: scale(1.1);
+    }
+    &.hidden {
+      opacity: 0;
+      visibility: hidden;
     }
   }
 }
