@@ -1088,6 +1088,7 @@ span {
 .right-slide .left-popup__open {
   cursor: pointer;
   position: fixed;
+  z-index: 5;
   right: 0;
   top: 130px;
   width: 50px;
