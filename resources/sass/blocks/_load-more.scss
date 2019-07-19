@@ -1,0 +1,17 @@
+.load-more {
+  text-align: center;
+  span {
+    font-family: 'Circe-bold';
+    font-size: 18px;
+    line-height: 113.5%;
+    color: #000000;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #606060;
+    cursor: pointer;
+    transition: transform .3s, opacity .3s;
+    backface-visibility: hidden;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

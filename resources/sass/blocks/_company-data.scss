@@ -1,0 +1,20 @@
+.company-data {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 11px;
+  }
+  &--clock {
+    margin-right: auto;
+  }
+  &__text{
+    span {
+      font-style: normal;
+      font-size: 14px;
+      line-height: 15px;
+      color: #444444;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.home-page {
+  main {
+    display: flex !important;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    article {
+      width: calc(100% - 216px);
+      padding: 0 72px;
+      position: relative;
+    }
+  }
+  .get-pool {
+    margin-bottom: 120px;
+  }
+}

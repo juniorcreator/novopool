@@ -1,0 +1,37 @@
+.popular-category {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  max-width: 151px;
+  width: 100%;
+  padding: 22px 13px 21px 13px;
+  transition: box-shadow .3s;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  &:hover {
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2);
+  }
+  &__img {
+    text-align: center;
+    margin-bottom: 14px;
+    position: relative;
+    padding-bottom: 47.444%;
+    img {
+      object-fit: contain;
+      max-width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      width: 90%;
+      height: 100%;
+      top: 0;
+      left: 5%;
+    }
+  }
+  &__text {
+    text-align: center;
+    font-family: 'Circe';
+    font-size: 14px;
+    line-height: 1;
+    color: #000000;
+  }
+}

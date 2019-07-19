@@ -1,0 +1,28 @@
+.sidebar-nav {
+  &__ul {
+    display: flex;
+    flex-direction: column;
+  }
+  &__li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    &:first-of-type,
+    &:nth-of-type(5) {
+      img {
+        margin-right: 17px;
+      }
+    }
+  }
+  img {
+    margin-right: 15px;
+  }
+  a {
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+  }
+}

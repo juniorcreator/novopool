@@ -1,0 +1,66 @@
+
+//reset
+@import "reset";
+
+//media query
+@import "query/query";
+
+//slick
+@import "UI/slick";
+
+//fonts
+@import "font/font";
+
+//sections
+@import "sections/advantages";
+
+//old
+@import "0ld";
+
+//nav
+@import'nav/nav';
+
+//pages
+@import'pages/home';
+@import'pages/shop';
+
+//UI
+@import'UI/checkboxes';
+@import'UI/side-form';
+@import'UI/btns';
+@import 'UI/headings';
+@import 'UI/gallery-item';
+@import 'UI/breadcrumbs';
+@import 'UI/sliders/sliders';
+@import 'UI/products';
+//UI
+
+//base
+@import'base';
+
+//blocks
+@import'blocks/top_links';
+@import'blocks/headet_tel';
+@import'blocks/address';
+@import'blocks/basket';
+@import'blocks/company-data';
+@import'blocks/social';
+@import'blocks/sidebar_footer';
+@import'blocks/right_slide';
+@import'blocks/pool_gallery';
+@import'blocks/load-more';
+@import'blocks/popular-pool';
+@import 'blocks/most_popular';
+@import 'blocks/popular_category';
+
+//banners
+@import'banners/banners';
+
+//components
+@import'components/footer';
+@import'components/header';
+@import'components/sidebar';
+
+
+
+

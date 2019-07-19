@@ -1,0 +1,29 @@
+.breadcrumbs {
+  margin-bottom: 17px;
+  li {
+    display: inline-block;
+    position: relative;
+    &:after {
+      content: '/';
+      color: #949494;
+    }
+    &:last-child {
+      &:after {
+        display: none;
+      }
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  a {
+    font-size: 14px;
+    line-height: 113.5%;
+    color: #949494;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

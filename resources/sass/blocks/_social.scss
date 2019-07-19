@@ -1,0 +1,17 @@
+.sidebar-social {
+  margin-bottom: 28px;
+  display: flex;
+  a {
+    width: 20px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(0.9);
+    }
+    &:first-of-type {
+      margin-right: 13px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
